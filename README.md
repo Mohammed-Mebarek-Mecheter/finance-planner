@@ -1,5 +1,7 @@
 # Financial Planning App
 
+![Financial Planning App](FPA.PNG)
+
 ## Objective
 
 The objective of this project is to create a tool that allows users to plan their financial future by calculating their monthly take-home pay after taxes, forecasting salary growth, simulating investment strategies, and providing insights based on projected financial data.
@@ -25,21 +27,20 @@ The project is organized into multiple Python scripts, each representing a diffe
 - `home.py`: Home page providing an overview of the project.
 - `salary_expenses.py`: Page for calculating salary and expenses.
 - `investment_simulation.py`: Page for simulating investment strategies.
-- `conclusion.py`: Page for providing insights and conclusions.
 
 ## How to Run
-
-1. Install Streamlit and required dependencies:
-
-```bash
-pip install streamlit numpy matplotlib
-```
 
 2. Clone the repository:
 
 ```bash
-git clone https://github.com/yourusername/financial-planning-app.git
-cd financial-planning-app
+git clone https://github.com/Mohammed-Mebarek-Mecheter/finance-planner.git
+cd finance-planner
+```
+
+1. Install Streamlit and required dependencies:
+
+```bash
+pip install -r requirements.txt
 ```
 
 3. Run the Streamlit app:
@@ -48,7 +49,7 @@ cd financial-planning-app
 streamlit run home.py
 ```
 
-4. Access the application in your web browser by navigating to the provided URL.
+4. You can access the Financial Planning App [here](https://financial-planning.streamlit.app/).
 
 ## Contributing
 
