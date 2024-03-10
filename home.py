@@ -31,3 +31,12 @@ def home_page():
 
 if __name__ == "__main__":
     main()
+
+st.markdown(
+    """
+    Made with ❤️ by [Mebarek](https://www.linkedin.com/in/mohammed-mecheter/). 
+    [GitHub](https://github.com/Mohammed-Mebarek-Mecheter/) | 
+    [LinkedIn](https://www.linkedin.com/in/mohammed-mecheter/) | 
+    [Portfolio](https://mebarek.pages.dev/)
+    """
+)
