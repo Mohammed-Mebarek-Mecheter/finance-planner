@@ -1,0 +1,59 @@
+/* assets/dark_mode.css */
+
+:root {
+    --font-family: 'Helvetica', sans-serif;
+    --bg-color: #121212;
+    --text-color: #e0e0e0;
+    --sidebar-bg-color: #1e1e1e;
+    --sidebar-text-color: #e0e0e0;
+    --button-bg-color: #bb86fc;
+    --button-hover-bg-color: #3700b3;
+    --button-text-color: #121212;
+    --button-hover-text-color: #ffffff;
+    --link-color: #bb86fc;
+    --link-hover-color: #3700b3;
+    --footer-bg-color: #1e1e1e;
+    --footer-text-color: #e0e0e0;
+}
+
+body {
+    font-family: var(--font-family);
+    background-color: var(--bg-color);
+    color: var(--text-color);
+}
+
+h1, h2, h3, h4, h5, h6 {
+    color: var(--text-color);
+}
+
+.sidebar .sidebar-content {
+    background-color: var(--sidebar-bg-color);
+    color: var(--sidebar-text-color);
+}
+
+.stButton > button {
+    background-color: var(--button-bg-color);
+    color: var(--button-text-color);
+    border-radius: 5px;
+}
+
+.stButton > button:hover {
+    background-color: var(--button-hover-bg-color);
+    color: var(--button-hover-text-color);
+}
+
+a {
+    color: var(--link-color);
+}
+
+a:hover {
+    color: var(--link-hover-color);
+    text-decoration: underline;
+}
+
+footer {
+    background-color: var(--footer-bg-color);
+    color: var(--footer-text-color);
+    text-align: center;
+    padding: 10px;
+}

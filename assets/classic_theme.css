@@ -1,0 +1,58 @@
+/* assets/classic_theme.css */
+
+:root {
+    --font-family: 'Times New Roman', serif;
+    --bg-color: #ffffff;
+    --text-color: #000000;
+    --sidebar-bg-color: #6c757d;
+    --sidebar-text-color: #f8f9fa;
+    --button-bg-color: #007bff;
+    --button-hover-bg-color: #0056b3;
+    --button-text-color: #ffffff;
+    --link-color: #007bff;
+    --link-hover-color: #0056b3;
+    --footer-bg-color: #6c757d;
+    --footer-text-color: #f8f9fa;
+}
+
+body {
+    font-family: var(--font-family);
+    background-color: var(--bg-color);
+    color: var(--text-color);
+}
+
+h1, h2, h3, h4, h5, h6 {
+    color: var(--text-color);
+}
+
+.sidebar .sidebar-content {
+    background-color: var(--sidebar-bg-color);
+    color: var(--sidebar-text-color);
+}
+
+.stButton > button {
+    background-color: var(--button-bg-color);
+    color: var(--button-text-color);
+    border-radius: 5px;
+}
+
+.stButton > button:hover {
+    background-color: var(--button-hover-bg-color);
+    color: var(--button-text-color);
+}
+
+a {
+    color: var(--link-color);
+}
+
+a:hover {
+    color: var(--link-hover-color);
+    text-decoration: underline;
+}
+
+footer {
+    background-color: var(--footer-bg-color);
+    color: var(--footer-text-color);
+    text-align: center;
+    padding: 10px;
+}

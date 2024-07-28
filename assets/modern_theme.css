@@ -1,0 +1,59 @@
+/* assets/modern_theme.css */
+
+:root {
+    --font-family: 'Arial', sans-serif;
+    --bg-color: #f0f2f5;
+    --text-color: #333;
+    --heading-color: #1f2937;
+    --sidebar-bg-color: #1f2937;
+    --sidebar-text-color: #e2e8f0;
+    --button-bg-color: #3b82f6;
+    --button-hover-bg-color: #2563eb;
+    --button-text-color: #ffffff;
+    --link-color: #3b82f6;
+    --link-hover-color: #2563eb;
+    --footer-bg-color: #1f2937;
+    --footer-text-color: #e2e8f0;
+}
+
+body {
+    font-family: var(--font-family);
+    background-color: var(--bg-color);
+    color: var(--text-color);
+}
+
+h1, h2, h3, h4, h5, h6 {
+    color: var(--heading-color);
+}
+
+.sidebar .sidebar-content {
+    background-color: var(--sidebar-bg-color);
+    color: var(--sidebar-text-color);
+}
+
+.stButton > button {
+    background-color: var(--button-bg-color);
+    color: var(--button-text-color);
+    border-radius: 5px;
+}
+
+.stButton > button:hover {
+    background-color: var(--button-hover-bg-color);
+    color: var(--button-text-color);
+}
+
+a {
+    color: var(--link-color);
+}
+
+a:hover {
+    color: var(--link-hover-color);
+    text-decoration: underline;
+}
+
+footer {
+    background-color: var(--footer-bg-color);
+    color: var(--footer-text-color);
+    text-align: center;
+    padding: 10px;
+}

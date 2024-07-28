@@ -1,0 +1,52 @@
+# Python
+*.py[cod]
+__pycache__/
+*.so
+*.egg
+*.egg-info
+.eggs
+
+# Virtual environment
+venv/
+env/
+ENV/
+finance
+
+# Streamlit
+.streamlit/
+
+# Environment variables
+.env
+utils/openai_integration.py
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# macOS
+.DS_Store
+
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# IDEs
+.vscode/
+.idea/
+*.swp
+
+# Logs
+*.log
+
+*.ipynb
+folder.py
+config.py
+config.yaml
+*.accdb
+*.db
+*.dbf
+*.mdb
+*.pdb
+*.sqlite3
+*.db-shm
+*.db-wal

@@ -1,0 +1,43 @@
+/* assets/styles.css */
+
+body {
+    font-family: 'Helvetica', sans-serif;
+    background-color: #f8f9fa;
+    color: #212529;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    color: #343a40;
+}
+
+.sidebar .sidebar-content {
+    background-color: #343a40;
+    color: #f8f9fa;
+}
+
+.stButton>button {
+    background-color: #007bff;
+    color: #fff;
+    border-radius: 5px;
+}
+
+.stButton>button:hover {
+    background-color: #0056b3;
+    color: #fff;
+}
+
+a {
+    color: #007bff;
+}
+
+a:hover {
+    color: #0056b3;
+    text-decoration: underline;
+}
+
+footer {
+    background-color: #343a40;
+    color: #f8f9fa;
+    text-align: center;
+    padding: 10px;
+}
